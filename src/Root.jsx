@@ -1,3 +1,4 @@
+import wWA from './assets/Screenshot.png';
 
 const Root = () => {
     return (
@@ -40,6 +41,20 @@ const Root = () => {
                         <button className="btn bg-red-600 px-5 hover:bg-red-700 border-0 rounded-sm mt-6 text-white mr-4">Donate</button>
                         <button className="btn bg-red-600 px-5 border-0 hover:bg-red-700 rounded-sm mt-6 text-white">Make an Appointment</button>
                     </div>
+                </div>
+            </div>
+
+            {/* Who We Are */}
+            <div className="mt-10 md:mt-36 mb-32 w-11/12 mx-auto md:flex gap-36">
+                <div className=" md:w-1/2">
+                    <img src={wWA} alt="" />
+                </div>
+                <div className="mt-10 md:mt-0">
+                    <p className='text-sky-500 font-mono'>MAKE AN IMPACT</p>
+                    <h1 className='text-4xl md:text-5xl font-semibold'>Who We Are</h1>
+                    <h1 className='text-xl font-bold text-red-600'>___________</h1>
+                    <p className='mt-4  text-xl'>Your financial gift can <br /> <span className='text-sky-500 font-semibold'>help a thousand children</span> who struggle from illnesses. <br /> Your gift can provide the necessary medicine, treatment, and other essentials.</p>
+                    <button className="btn bg-red-600 px-5 hover:bg-red-700 border-0 rounded-sm mt-6 text-white mr-4">Donate Now</button>
                 </div>
             </div>
         </div>
