@@ -1,5 +1,7 @@
 import wWA from '../assets/Screenshot.png';
 import { IoIosArrowForward } from 'react-icons/io';
+import { BsQuote } from 'react-icons/bs';
+
 
 const Home = () => {
     return (
@@ -167,12 +169,67 @@ const Home = () => {
                                 <h2 className='text-xl font-semibold'>Register today</h2>
                                 <form className='mt-5'>
                                     <input className='pr-16 w-full mb-2 pl-4 py-3 border rounded border-red-600' type="text" name="name" id="" placeholder='Your name' required /> <br />
-                                    <input className='pr-16 mb-2 w-full pl-4 py-3 border rounded border-red-600' type="email" name="email" id="" placeholder='Email' required/> <br />
-                                    <input className='pr-16 mb-2 pl-4 w-full py-3 border rounded border-red-600' type="number" name="number" id="" placeholder='Phone' required/> <br />
+                                    <input className='pr-16 mb-2 w-full pl-4 py-3 border rounded border-red-600' type="email" name="email" id="" placeholder='Email' required /> <br />
+                                    <input className='pr-16 mb-2 pl-4 w-full py-3 border rounded border-red-600' type="number" name="number" id="" placeholder='Phone' required /> <br />
                                     <input className="btn bg-red-600 px-5 hover:bg-red-700 border-0 rounded text-white mr-4" type="submit" value="Make an Appointment" />
                                 </form>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            {/*  */}
+            <div className=" mt-36 w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div className="">
+                    <div className=" p-5 bg-sky-50 border">
+                        <BsQuote className='text-5xl opacity-75' />
+                        <p className='text-xl opacity-80'>People here are friendly every time! Very thorough. Always checking on you to make sure you are ok</p>
+                        <div className="flex justify-end">
+                            <p className='font-bold text-red-600 text-3xl'>______</p>
+                        </div>
+                        <div className="flex justify-end mt-4">
+                            <p className='font-semibold text-sky-300'>ANDY SIMPSON</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="">
+                    <div className=" p-5 bg-sky-50 border">
+                        <BsQuote className='text-5xl opacity-75' />
+                        <p className='text-xl opacity-80'>Just finished donating platelets for the first time in my life and I'm so happy I did! I will gladly donate...</p>
+                        <div className="flex justify-end">
+                            <p className='font-bold text-red-600 text-3xl'>______</p>
+                        </div>
+                        <div className="flex justify-end mt-4">
+                            <p className='font-semibold text-sky-300'>KRISTY KORTNY</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="">
+                    <div className=" p-5 bg-sky-50 border">
+                        <BsQuote className='text-5xl opacity-75' />
+                        <p className='text-xl opacity-80'>Cool -  blood goes from one arm, thru a machine, back into other arm. Able to split my donation!</p>
+                        <div className="flex justify-end">
+                            <p className='font-bold text-red-600 text-3xl'>______</p>
+                        </div>
+                        <div className="flex justify-end mt-4">
+                            <p className='font-semibold text-sky-300'>BARBARA WILKIRSON</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Become a Blood Donor */}
+            <div className="mt-36">
+                <div className="h-96 bg-[url('https://i.ibb.co/jfC3BZW/pexels-frank-meri-o-12193090.jpg')] bg-cover">
+                    <div className="ml-6 pt-24">
+                    <p className='font-bold text-red-600 text-6xl mb-3'>______</p>
+                    <p className='text-5xl font-bold text-white'>Become a <span className='text-red-500'>Blood</span> Donor!</p>
+                    <p className='text-white text-xl mt-2'>All types of blood are needed to help patients</p>
+                    <button className="btn bg-red-600 px-5 mt-10 hover:bg-red-700 border-0 rounded text-white mr-4" >Schedule Appointment</button>
                     </div>
                 </div>
             </div>
