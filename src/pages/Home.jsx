@@ -225,7 +225,7 @@ const Home = () => {
             {/* Become a Blood Donor */}
             <div className="mt-36">
                 <div className="h-96 bg-[url('https://i.ibb.co/jfC3BZW/pexels-frank-meri-o-12193090.jpg')] bg-cover">
-                    <div className="ml-6 pt-24">
+                    <div className="ml-6 pt-4 md:pt-24">
                     <p className='font-bold text-red-600 text-6xl mb-3'>______</p>
                     <p className='text-5xl font-bold text-white'>Become a <span className='text-red-500'>Blood</span> Donor!</p>
                     <p className='text-white text-xl mt-2'>All types of blood are needed to help patients</p>
