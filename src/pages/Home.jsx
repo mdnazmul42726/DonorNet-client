@@ -12,7 +12,7 @@ const Home = () => {
                         <h1 className="text-6xl font-bold text-red-900 opacity-100">Donate Blood, Save Life</h1>
                         <p className="text-xl mt-4 text-red-900 font-semibold">Donating blood is the simplest way to save a life. <br /> Your gift of life can bring hope and healing to those in need</p>
                         <button className="btn bg-red-600 px-5 hover:bg-red-700 border-0 rounded-sm mt-6 text-white mr-4">Donate</button>
-                        <button className="btn bg-red-600 px-5 border-0 hover:bg-red-700 rounded-sm mt-6 text-white">Make an Appointment</button>
+                        <button className="btn bg-red-600 px-5 border-0 hover:bg-red-700 rounded-sm mt-6 text-white">Find Donor</button>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@ const Home = () => {
                 <div className="">
                     <div className=" p-5 bg-sky-50 border">
                         <BsQuote className='text-5xl opacity-75' />
-                        <p className='text-xl opacity-80'>Just finished donating platelets for the first time in my life and I'm so happy I did! I will gladly donate...</p>
+                        <p className='text-xl opacity-80'>Just finished donating platelets for the first time in my life and I`m so happy I did! I will gladly donate...</p>
                         <div className="flex justify-end">
                             <p className='font-bold text-red-600 text-3xl'>______</p>
                         </div>
